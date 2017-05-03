@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4369"
+   height="64"
+   width="650.66669"
+   version="1.1"
+   viewBox="0 0 610.00001 59.999999"
+   sodipodi:docname="amber_logo_lg_bc.svg"
+   inkscape:version="0.92.1 r15371"
+   inkscape:export-filename="C:\risconx\amber3\application\static\amber_logo_linkedIn.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs20" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="3840"
+     inkscape:window-height="2012"
+     id="namedview18"
+     showgrid="false"
+     inkscape:zoom="1.545339"
+     inkscape:cx="328.71864"
+     inkscape:cy="-113.97203"
+     inkscape:window-x="-16"
+     inkscape:window-y="-16"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <metadata
+     id="metadata4374">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(0,-992.36)">
+    <path
+       id="path8313"
+       d="M 87.534,1034.1 110.55,997.99 3.58,1035.5 75.346,1017.4 Z"
+       inkscape:connector-curvature="0"
+       style="fill:#ffbf00;fill-rule:evenodd;stroke:#000000;stroke-width:0.63194001px" />
+    <path
+       id="path8315"
+       d="m 60.855,1029.4 a 6.4164,5.2379 0 0 1 6.4164,-5.2379 6.4164,5.2379 0 0 1 6.4164,5.2379 6.4164,5.2379 0 0 1 -6.4164,5.2379 6.4164,5.2379 0 0 1 -6.4164,-5.2379 z"
+       inkscape:connector-curvature="0"
+       style="fill:#008000;stroke:#ffbf00;stroke-width:0.12992001" />
+    <text
+       id="text8339"
+       style="font-size:56.87400055px;line-height:0%;font-family:'Eras Light ITC';letter-spacing:0px;word-spacing:0px;fill:#ffbf00"
+       xml:space="preserve"
+       font-size="56.874px"
+       line-height="125%"
+       y="1035.7371"
+       x="103.8946"><tspan
+         id="tspan8341"
+         x="103.8946"
+         y="1035.7371">Ambe<tspan
+   id="tspan8343"
+   font-size="56.874px"
+   style="font-size:56.87400055px;fill:#008000">risk Consulting</tspan></tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot76"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion78"><rect
+           id="rect80"
+           width="784.94104"
+           height="232.95859"
+           x="-73.123116"
+           y="-74.480942" /></flowRegion><flowPara
+         id="flowPara82"></flowPara></flowRoot>  </g>
+</svg>

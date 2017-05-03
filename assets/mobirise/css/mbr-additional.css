@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
+
+
+
+#dropdown-menu-0 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-0 .nav .link,
+#dropdown-menu-0 .dropdown-item {
+  font-size: 1em;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+#dropdown-menu-0 .navbar,
+#dropdown-menu-0 .dropdown-menu {
+  background: #071640;
+}
+#dropdown-menu-0 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-0 .dropdown-menu a:hover,
+#dropdown-menu-0 .dropdown-menu a:focus {
+  background: #05102e;
+}
+#dropdown-menu-0 .navbar-toggler {
+  color: #ffffff;
+}
+#slider-1 H1 {
+  color: #fac51c;
+  font-family: 'Ubuntu', sans-serif;
+}
+#slider-1 P {
+  color: #efefef;
+  font-family: 'Arimo', sans-serif;
+  text-align: right;
+  font-size: 22px;
+}
+#msg-box3-4 .mbr-header .mbr-header__text {
+  text-align: center;
+}
+#msg-box3-4 .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#slider-j H1 {
+  color: #28324e;
+}
+#slider-j P {
+  color: #000000;
+}
+#contacts2-7 P {
+  text-align: left;
+}
+
+#dropdown-menu-a .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-a .nav .link,
+#dropdown-menu-a .dropdown-item {
+  font-size: 1em;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+#dropdown-menu-a .navbar,
+#dropdown-menu-a .dropdown-menu {
+  background: #071640;
+}
+#dropdown-menu-a .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-a .dropdown-menu a:hover,
+#dropdown-menu-a .dropdown-menu a:focus {
+  background: #05102e;
+}
+#dropdown-menu-a .navbar-toggler {
+  color: #ffffff;
+}
+#content1-f P {
+  font-size: 17px;
+}
+
+#dropdown-menu-c .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-c .nav .link,
+#dropdown-menu-c .dropdown-item {
+  font-size: 1em;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+#dropdown-menu-c .navbar,
+#dropdown-menu-c .dropdown-menu {
+  background: #071640;
+}
+#dropdown-menu-c .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-c .dropdown-menu a:hover,
+#dropdown-menu-c .dropdown-menu a:focus {
+  background: #05102e;
+}
+#dropdown-menu-c .navbar-toggler {
+  color: #ffffff;
+}
+#contacts2-d P {
+  text-align: left;
+}
