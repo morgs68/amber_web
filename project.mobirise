@@ -1,14 +1,14 @@
 {
   "settings": {
     "name": "amberisk",
-    "currentPage": "index.html",
+    "currentPage": "landing.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
       "styling": {}
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 20,
+    "uniqCompNum": 41,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-128x128.png",
     "noImageResize": "",
@@ -16,285 +16,26 @@
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='about_legal.html'>cookie policy</a>."
   },
   "pages": {
-    "index.html": {
+    "blank.html": {
       "settings": {
-        "main": true,
-        "title": "Amberisk Consulting",
-        "meta_descr": "Operational Risk Consulting; Regulatory Risk Consulting; Regtech Consultancy; Wealth Management; Funds; Banking; Trust; Fiduciary; Family Office ",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": ""
+        "title": "Site Template",
+        "meta_descr": "Operational Risk Consulting; Regulatory Risk Consulting; Regtech Consultancy; Wealth Management; Funds; Banking; Trust; Fiduciary; Family Office; Financial Crime; Anti-money Laundering; Offshore Finance; BVI; Guernsey; Jersey; Singapore; Hong Kong; Cayman; Barbados; Bermuda; Isle of Man"
       },
       "components": [
         {
-          "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
-            },
-            ".navbar-brand a": {},
-            ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-family": "'Open Sans', sans-serif"
-            },
-            ".navbar, .dropdown-menu": {
-              "background": "#071640"
-            },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#05102e"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            }
-          },
+          "_inherit": "features1",
           "_tags": [
             "Theme"
           ],
-          "_name": "dropdown-menu",
-          "_anchor": "dropdown-menu-0",
-          "_params": {
-            "bgColor": "#071640",
-            "fontSize": "1",
-            "fontName": {
-              "name": "Open Sans",
-              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "css": "'Open Sans', sans-serif"
-            },
-            "fontColor": "#ffffff",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/amber-logo-lg-1435x128.png",
-              "class": "",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://amberisk.com",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
-        },
-        {
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider",
-          "_styles": {
-            "H1": {
-              "color": "#fac51c",
-              "font-family": "'Ubuntu', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
-            },
-            "P": {
-              "color": "#efefef",
-              "font-family": "'Arimo', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Arimo:400,700",
-              "text-align": "right",
-              "font-size": "22px"
-            }
-          },
-          "_params": {
-            "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "slides": [
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/imag0567-2000x1127.jpg",
-                "contentAlign": "right",
-                "overlay": true,
-                "overlayOpacity": "0.7",
-                "overlayColor": "#000000",
-                "showTitle": true,
-                "title": "Amberisk Consulting",
-                "showText": true,
-                "text": "is a specialised Operational and Regulatory Risk Consultancy with a stong focus to utilising IT Solutions.<br><br>Based in the Channel Islands our knowledge and focus is the Fiduciary, Investments, Funds and Banking Sectors.<br>",
-                "showButtons": false,
-                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Login</a> "
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/p1000519-2000x1125.jpg",
-                "contentAlign": "right",
-                "overlay": true,
-                "overlayOpacity": "0.8",
-                "overlayColor": "#000000",
-                "showTitle": true,
-                "title": "Regulatory Risk",
-                "showText": true,
-                "text": "As AML becomes all financial crime, how prepared are you to manage external and internal fraud?<br><br>Conduct risk do you know where to start with addressing this?<br><br>The key to risk management is getting comfortable about what you don't know.<br><br>The key to regulatory compliance is evidencing what you do know.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/weighbridge-2000x1500.jpg",
-                "contentAlign": "right",
-                "overlay": true,
-                "overlayOpacity": "0.8",
-                "overlayColor": "#000000",
-                "showTitle": true,
-                "title": "Operational Risk",
-                "showText": true,
-                "text": "Advisory &nbsp;services &nbsp;for &nbsp;developing and managing your operational risk in an ever more regulated world.<br><br>Can you identify what risks your controls are managing?<br><br>Challenge your controls, before they challenge you.<br><br>&nbsp;",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/mbr-3-2000x1333.jpg",
-                "contentAlign": "right",
-                "overlay": true,
-                "overlayOpacity": "0.8",
-                "overlayColor": "#000000",
-                "showTitle": true,
-                "title": "Start the Journey",
-                "showText": true,
-                "text": "We can help you<br><br>Build or develop your risk framework and taxonomy<br>Undertake risk focused business process modelling<br>Cost of control -v- Risk being controlled<br>Risk exploration workshops<br>Product and Service risk profiling<br>Risk Appetite statements<br><br>Risk is about seeking opportunities without risking the business",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
-              }
-            ],
-            "fullScreen": true,
-            "bgColor": "#ffffff",
-            "showBullets": true
-          },
-          "_anchor": "slider-1",
-          "articleLayout": false
-        },
-        {
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "text-align": "center"
-            },
-            ".mbr-header .mbr-header__subtext": {
-              "text-align": "center"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box3",
-          "_anchor": "msg-box3-4",
-          "_params": {
-            "showCaption": "noCaption",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showTitle": true,
-            "showText": true,
-            "showButton": true,
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/nice-graph-2000x865.png",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#cccccc",
-            "showMeta": false,
-            "darkBackground": false
-          },
-          "title": "Offshore Data Repository<br>",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>The changing face of risk management is to be able to manage data, a lot of data and to do this with clarity and precision. To show you an example of what we do, please try out the offshore data repository. We have taken the ICIJ Panama Papers, all of the FATCA/IRS registrations and other data of interest to the offshore world and joined it all together.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Currently In Development</a>"
-        },
-        {
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider",
-          "_params": {
-            "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "slides": [
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1339.jpg",
-                "contentAlign": "right",
-                "overlay": true,
-                "overlayOpacity": "0.7",
-                "overlayColor": "#c1c1c1",
-                "showTitle": true,
-                "title": "Criminal Finance Act 2017",
-                "showText": true,
-                "text": "This received Royal Assent on the 27th April 2017, with the extra territoriality nature of this have you the appropriate controls and suitable defences in place?<br>",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/mbr-6-2000x1333.jpg",
-                "contentAlign": "left",
-                "overlay": true,
-                "overlayOpacity": "0.7",
-                "overlayColor": "#efefef",
-                "showTitle": true,
-                "title": "Risk.net Top 10 for 2017<br>",
-                "showText": true,
-                "text": "<p><i><a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk1\" target=\"_blank\">#1 Cyber risk and data security</a></i> | <a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk2\" target=\"_blank\">#2 Regulation</a> | <br><a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk3\" target=\"_blank\">#3 Outsourcing</a> | <a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk4\" target=\"_blank\">#4 Geopolitical risk</a> | <a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk5\" target=\"_blank\">#5 Conduct risk</a> | <a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk6\" target=\"_blank\">#6 Organisational change</a> | <a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk7\" target=\"_blank\">#7 IT failure</a> | <a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk8\" target=\"_blank\">#8 AML, CTF</a><a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk8\" target=\"_blank\"></a> | <a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk9\" target=\"_blank\">#9 Fraud</a> | <a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk10\" target=\"_blank\">#10 Physical attack</a></p>",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1325.jpg",
-                "contentAlign": "center",
-                "overlay": true,
-                "overlayOpacity": "0.7",
-                "overlayColor": "#efefef",
-                "showTitle": true,
-                "title": "Slide 3",
-                "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
-              }
-            ],
-            "fullScreen": false,
-            "bgColor": "#efefef",
-            "showBullets": true
-          },
-          "_anchor": "slider-j",
-          "articleLayout": false,
-          "_styles": {
-            "H1": {
-              "color": "#28324e"
-            },
-            "P": {
-              "color": "#000000"
-            }
-          }
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features1",
-          "_anchor": "features1-i",
+          "_name": "content4",
+          "_anchor": "content4-u",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
+            "bgColor": "#efefef",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -305,11 +46,11 @@
             "overlayColor": "#222",
             "showHeader": false,
             "showSubheader": false,
-            "columns": 4,
-            "showImages": true,
+            "columns": 5,
+            "showImages": false,
             "showTitles": true,
             "showCaptions": true,
-            "showButtons": true
+            "showButtons": false
           },
           "headerAlign": "left",
           "header": "DROP-DEAD EASY WEBSITE MAKER",
@@ -317,13 +58,9 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x400.jpg",
+              "src": "images/bootstrap.png",
               "class": "mbr-figure__img",
-              "width": 600,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "width": 600
             },
             "video": {
               "class": "mbr-figure__img",
@@ -440,50 +177,543 @@
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
         },
         {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#efefef",
+              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
+              "font-family": "'Source Sans Pro', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#3c3c3c"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#323232"
+            },
+            ".navbar-toggler": {
+              "color": "#efefef"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "social-buttons1",
-          "_anchor": "social-buttons1-5",
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-r",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#cccccc",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "inverse": false,
-            "counters": false,
-            "facebook": true,
-            "google": false,
-            "twitter": true
+            "bgColor": "#3c3c3c",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Source Sans Pro",
+              "url": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
+              "css": "'Source Sans Pro', sans-serif"
+            },
+            "fontColor": "#efefef",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false
           },
-          "text": "SHARE THIS PAGE!"
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/amber-logo-lg-1435x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://amberisk.com",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PRODUCTS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Offshore Database</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Risk Profiling Tool</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://amberisk.com/bpm/demo\">Business Process Modelling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://amberisk.com/cs/demo\">Compliance Suite</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">SERVICES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://amberisk.com/services/orm\">Operational Risk Consultancy</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://amberisk.com/services/reg\">Regulatory Risk Consultancy</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://amberisk.com/services/it\">IT Integration Consultancy</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://amberisk.com/about/legal\">Legal &amp; Privacy (Cookies)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#contacts2-7\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"https://amberisk.com/auth/login\">CLIENT LOG IN</a></li>"
         },
         {
           "_tags": [
             "Theme"
           ],
-          "_name": "social-buttons2",
-          "_anchor": "social-buttons2-6",
+          "_name": "contacts1",
+          "_anchor": "contacts1-t",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#f0f0f0",
+            "bgColor": "#3c3c3c",
             "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/amber-logo-lg-bc.svg",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "text1": "<strong>ADDRESS</strong><br>Digital Greenhouse, Rectory House, Market Square, St Peter Port, <br>Guernsey,&nbsp;GY1 1AQ<br>",
+          "text2": "<strong>CONTACTS</strong><br>\nEmail: admin@amberisk.com<br>\nPhone: +44 (0) 7781 126 058<br><br>",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li>Risconx</li><li>RegTech Guernsey</li></ul>"
+        }
+      ]
+    },
+    "landing.html": {
+      "settings": {
+        "main": true,
+        "title": "Amberisk Consulting",
+        "meta_descr": "Operational Risk Consulting; Regulatory Risk Consulting; Regtech Consultancy; Wealth Management; Funds; Banking; Trust; Fiduciary; Family Office; Financial Crime; Anti-money Laundering; Offshore Finance; BVI; Guernsey; Jersey; Singapore; Hong Kong; Cayman; Barbados; Bermuda; Isle of Man",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#efefef",
+              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
+              "font-family": "'Source Sans Pro', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#3c3c3c"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#323232"
+            },
+            ".navbar-toggler": {
+              "color": "#efefef"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-0",
+          "_params": {
+            "bgColor": "#3c3c3c",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Source Sans Pro",
+              "url": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
+              "css": "'Source Sans Pro', sans-serif"
+            },
+            "fontColor": "#efefef",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/amber-logo-lg-1435x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://amberisk.com",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PRODUCTS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Offshore Database</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Risk Profiling Tool</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://amberisk.com/bpm/demo\">Business Process Modelling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://amberisk.com/cs/demo\">Compliance Suite</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">SERVICES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://amberisk.com/services/orm\">Operational Risk Consultancy</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://amberisk.com/services/reg\">Regulatory Risk Consultancy</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://amberisk.com/services/it\">IT Integration Consultancy</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://amberisk.com/about/legal\">Legal &amp; Privacy (Cookies)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#contacts2-7\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"https://amberisk.com/auth/login\">CLIENT LOG IN</a></li>"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_styles": {
+            "H1": {
+              "color": "#fac51c",
+              "font-family": "'Ubuntu', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Ubuntu:400,300,700"
+            },
+            "P": {
+              "color": "#efefef",
+              "font-family": "'Arimo', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arimo:400,700",
+              "text-align": "right",
+              "font-size": "22px"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/imag0567-2000x1127.jpg",
+                "contentAlign": "right",
+                "overlay": true,
+                "overlayOpacity": "0.7",
+                "overlayColor": "#000000",
+                "showTitle": true,
+                "title": "Amberisk Consulting",
+                "showText": true,
+                "text": "is a specialised Operational and Regulatory Risk Consultancy with tech solutions<br><br>Based in the Channel Islands our knowledge and focus is the Fiduciary, Investments, Funds and Banking Sectors.<br>",
+                "showButtons": false,
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Login</a> "
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/p1000519-2000x1125.jpg",
+                "contentAlign": "right",
+                "overlay": true,
+                "overlayOpacity": "0.8",
+                "overlayColor": "#000000",
+                "showTitle": true,
+                "title": "Regulatory Risk",
+                "showText": true,
+                "text": "As AML becomes all financial crime, how prepared are you to manage external and internal fraud?<br><br>Conduct risk do you know where to start with addressing this?<br><br>The key to risk management is getting comfortable about what you don't know.<br><br>The key to regulatory compliance is evidencing what you do know.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/weighbridge-2000x1500.jpg",
+                "contentAlign": "right",
+                "overlay": true,
+                "overlayOpacity": "0.8",
+                "overlayColor": "#000000",
+                "showTitle": true,
+                "title": "Operational Risk",
+                "showText": true,
+                "text": "Advisory &nbsp;services &nbsp;for &nbsp;developing and managing your operational risk in an ever more regulated world.<br><br>Can you identify what risks your controls are managing?<br><br>Challenge your controls, before they challenge you.<br><br>&nbsp;",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/mbr-3-2000x1333.jpg",
+                "contentAlign": "right",
+                "overlay": true,
+                "overlayOpacity": "0.8",
+                "overlayColor": "#000000",
+                "showTitle": true,
+                "title": "Start the Journey",
+                "showText": true,
+                "text": "We can help you<br><br>Build or develop your risk framework and taxonomy<br>Undertake risk focused business process modelling<br>Cost of control -v- Risk being controlled<br>Risk exploration workshops<br>Product and Service risk profiling<br>Risk Appetite statements<br><br>Risk is about seeking opportunities without risking the business",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#ffffff",
+            "showBullets": true
+          },
+          "_anchor": "slider-1",
+          "articleLayout": false
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-4",
+          "_params": {
+            "showCaption": "noCaption",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": true,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/nice-graph-2000x865.png",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#cccccc",
+            "showMeta": false,
+            "darkBackground": false
+          },
+          "title": "Offshore Data Repository<br>",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>The changing face of risk management is to be able to manage data, a lot of data and to do this with clarity and precision. To show you an example of what we do, please try out the offshore data repository. We have taken the ICIJ Panama Papers, all of the FATCA/IRS registrations and other data of interest to the offshore world and joined it all together.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://amberisk.com/odr/demo\" data-toolbar=\"-mbrBtnMove\">Tell me more</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "text-align": "center"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "header3-k",
+          "title": "ITEMS OF INTEREST",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": "Updated by Hayden Morgan 5th May 2017"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_styles": {
+            "H1": {
+              "color": "#28324e"
+            },
+            "P": {
+              "color": "#000000",
+              "text-align": "right"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1339.jpg",
+                "contentAlign": "right",
+                "overlay": true,
+                "overlayOpacity": "0.7",
+                "overlayColor": "#c1c1c1",
+                "showTitle": true,
+                "title": "A new tank has just parked on the offshore lawn",
+                "showText": true,
+                "text": "Criminal Finance Act 2017. This received Royal Assent on the 27th April 2017, with the extra territoriality nature of this have you the appropriate controls and suitable defences in place?<br>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://www.publications.parliament.uk/pa/bills/lbill/2016-2017/0127/17127.pdf\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Read</a> "
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/mbr-6-2000x1333.jpg",
+                "contentAlign": "left",
+                "overlay": true,
+                "overlayOpacity": "0.7",
+                "overlayColor": "#efefef",
+                "showTitle": true,
+                "title": "Risk.net Top 10 for 2017<br>",
+                "showText": true,
+                "text": "<p><i><a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk1\" target=\"_blank\">#1 Cyber risk and data security</a></i> | <a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk2\" target=\"_blank\">#2 Regulation</a> | <br><a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk3\" target=\"_blank\">#3 Outsourcing</a> | <a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk4\" target=\"_blank\">#4 Geopolitical risk</a> | <a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk5\" target=\"_blank\">#5 Conduct risk</a> | <a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk6\" target=\"_blank\">#6 Organisational change</a> | <a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk7\" target=\"_blank\">#7 IT failure</a> | <a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk8\" target=\"_blank\">#8 AML, CTF</a><a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk8\" target=\"_blank\"></a> | <a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk9\" target=\"_blank\">#9 Fraud</a> | <a href=\"http://www.risk.net/risk-management/operational-risk/2480528/top-10-operational-risks-for-2017#risk10\" target=\"_blank\">#10 Physical attack</a></p>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1325.jpg",
+                "contentAlign": "center",
+                "overlay": true,
+                "overlayOpacity": "0.7",
+                "overlayColor": "#efefef",
+                "showTitle": true,
+                "title": "for Compliance Consultants",
+                "showText": true,
+                "text": "<span style=\"font-size: 21px;\"><br></span><br><span style=\"font-size: 21px;\">Are your registers in Excel or do you just deliver spreadsheets as a product to your clients?</span><span style=\"font-size: 21px;\"><br></span><br><span style=\"font-size: 21px;\"> Want to deliver more than the Big 4?</span><br><span style=\"font-size: 21px;\">&nbsp;</span><br><span style=\"font-size: 21px;\">Are you looking for opportunities to develop a scalable business solution that earns income when you are not on site?</span><br><span style=\"font-size: 21px;\"><br></span><span style=\"font-size: 21px;\"><br></span><br><br><br>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://amberisk.com/cs/consult\" data-toolbar=\"-mbrBtnMove\">Tell me more</a> "
+              }
+            ],
+            "fullScreen": false,
+            "bgColor": "#ffffff",
+            "showBullets": true
+          },
+          "_anchor": "slider-j",
+          "articleLayout": false
+        },
+        {
+          "_inherit": "features1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-q",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
             "overlay": false,
             "overlayOpacity": 0.5,
-            "overlayColor": "#222"
+            "overlayColor": "#222",
+            "showHeader": false,
+            "showSubheader": false,
+            "columns": "4",
+            "showImages": false,
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": true
           },
-          "text": "FOLLOW US",
-          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\"><i class=\"socicon socicon-youtube\"></i></a>   <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-github\" title=\"GitHub\" target=\"_blank\" href=\"https://github.com/Mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-github\"></i></a>   <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-linkedin\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-linkedin\"></i></a> "
+          "headerAlign": "left",
+          "header": "DROP-DEAD EASY WEBSITE MAKER",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "images/bootstrap.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "OPERATIONAL RISK&nbsp;",
+          "caption1": "Get ahead of the curve and start building a proper enterprise wide operational risk framework. We can work directly with clients or support existing consultants.<br><br>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://amberisk.com/services/orm\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "images/responsive.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "COMPLIANCE CONSULTANTS",
+          "caption2": "Do you run a small compliance consultancy business? Looking for opportunities to increase revenue and growth? Need a collaborative partner to move your business to the next level?<br>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://amberisk.com/cs/consult\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "images/google-fonts.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "DATA MINING &amp; ANALYTICS",
+          "caption3": "Using the latest software combined with in depth knowledge of the domain we can analyse your data. Do you have hidden gems in a mountain of data?<br>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://amberisk.com/services/it\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "images/unlimited-websites.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "DATA SECURITY",
+          "caption4": "Most importantly we understand how you need to protect your client privacy. Our solutions will only host your client data on island. Data Security is our priority.<br>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://amberisk.com/services/data\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "images/blocks.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title5": "TRENDY WEBSITE BLOCKS",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "images/host.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
         },
         {
           "_tags": [
@@ -497,7 +727,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#f3e8c7",
+            "bgColor": "#cccccc",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -535,6 +765,27 @@
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-6",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#f0f0f0",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/AmberiskCI\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/amberisk\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>     <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-github\" title=\"GitHub\" target=\"_blank\" href=\"https://github.com/morgs68\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-github\"></i></a>   <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-linkedin\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/amberisk\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-linkedin\"></i></a> "
+        },
+        {
           "alias": "social-feed",
           "_tags": [
             "Extension"
@@ -557,7 +808,12 @@
             "overlayOpacity": 0.6,
             "overlayColor": "#7e9b9f"
           },
-          "loadsvg": "@ADDONS_PATH@/social-feed/feed/assets/loading.svg"
+          "loadsvg": "@ADDONS_PATH@/social-feed/feed/assets/loading.svg",
+          "_styles": {
+            "undefined": {
+              "text-align": "right"
+            }
+          }
         },
         {
           "_tags": [
@@ -576,7 +832,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#3c3c3c",
+            "bgColor": "#322c2c",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -589,14 +845,14 @@
             }
           },
           "text1": "<strong>ADDRESS</strong><br>Digital Greenhouse, Rectory House, Market Square, St Peter Port, GY1 1AQ<br><br>\n<strong>CONTACTS</strong><br>\nEmail: admin@amberisk.com<br>\nPhone: +44 (0) 7781 126 058<br>",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"http://risconx.com\">Risconx</a></li><li><a href=\"http:/regtech.gg\">RegTech Guernsey</a></li></ul>"
+          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li>Risconx</li><li><a href=\"http:/regtech.gg\">RegTech Guernsey</a></li></ul>"
         }
       ]
     },
-    "about_legal.html": {
+    "holding.html": {
       "settings": {
-        "title": "Legal and Privacy",
-        "meta_descr": "Legal and privacy staements for Amberisk (CI) Limited;\nOperationa Risk\nRegulatory Risk\nIT Consulting"
+        "title": "Under Construction",
+        "meta_descr": "Operational Risk Consulting; Regulatory Risk Consulting; Regtech Consultancy; Wealth Management; Funds; Banking; Trust; Fiduciary; Family Office; Financial Crime; Anti-money Laundering; Offshore Finance; BVI; Guernsey; Jersey; Singapore; Hong Kong; Cayman; Barbados; Bermuda; Isle of Man"
       },
       "components": [
         {
@@ -607,35 +863,35 @@
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
               "font-size": "1em",
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-family": "'Open Sans', sans-serif"
+              "color": "#efefef",
+              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
+              "font-family": "'Source Sans Pro', sans-serif"
             },
             ".navbar, .dropdown-menu": {
-              "background": "#071640"
+              "background": "#3c3c3c"
             },
             ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#05102e"
+              "background": "#323232"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#efefef"
             }
           },
           "_tags": [
             "Theme"
           ],
           "_name": "dropdown-menu",
-          "_anchor": "dropdown-menu-a",
+          "_anchor": "dropdown-menu-v",
           "_params": {
-            "bgColor": "#071640",
+            "bgColor": "#3c3c3c",
             "fontSize": "1",
             "fontName": {
-              "name": "Open Sans",
-              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "css": "'Open Sans', sans-serif"
+              "name": "Source Sans Pro",
+              "url": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
+              "css": "'Source Sans Pro', sans-serif"
             },
-            "fontColor": "#ffffff",
-            "transparent": false,
+            "fontColor": "#efefef",
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -654,168 +910,87 @@
             }
           },
           "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PRODUCTS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Offshore Database</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Risk Profiling Tool</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://amberisk.com/bpm/demo\">Business Process Modelling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://amberisk.com/cs/demo\">Compliance Suite</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">SERVICES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://amberisk.com/services/orm\">Operational Risk Consultancy</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://amberisk.com/services/reg\">Regulatory Risk Consultancy</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://amberisk.com/services/it\">IT Integration Consultancy</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://amberisk.com/about/legal\">Legal &amp; Privacy (Cookies)</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#contacts2-7\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"https://amberisk.com/auth/login\">CLIENT LOG IN</a></li>"
         },
         {
+          "_inherit": "header1",
           "_tags": [
             "Theme"
           ],
-          "_name": "header3",
-          "_anchor": "header3-e",
-          "title": "Legal and Privacy Notices<div><br></div>",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_anchor": "header4-14",
           "_params": {
-            "showMeta": true
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1330.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#000000",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": false
           },
-          "meta": "<span style=\"letter-spacing: 1px; line-height: 1.42857143;\">The Terms and Conditions of use of the Amberisk website (hereafter referred to as the \"Terms and Conditions\").</span><br><br>"
+          "title": "Comming Soon",
+          "text": "You have been directed to a holding page as this is under development, please come back soon or even better register your interest below.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Home</a> "
         },
         {
           "_tags": [
             "Theme"
           ],
-          "_name": "content1",
-          "_styles": {
-            "P": {
-              "font-size": "17px"
-            }
-          },
-          "_anchor": "content1-f",
-          "text": "<p><b>Data Protection and Privacy</b></p><p><b>Definitions:</b></p><p><b>Amberisk </b>: Amberisk (CI) Limited a company incorporated in Guernsey and/or Amberisk (Holdings) Limited a company incorporated in the British Virgin Islands.</p><p><b>Data Protection Law </b>: For Guernsey residents this is the Data Protection (Bailiwick of Guernsey) Law, 2001 for Jersey residents this is Data Protection (Jersey) Law 2005&nbsp;</p><p><br></p><p><b>1 </b>Amberisk recognises that your privacy is important to you. Amberisk and its subsidiaries are registered with the Information Commissioner under the Data Protection Law, and is committed to respecting your online privacy. We will apply appropriate protection and management of any personally identifiable information you share with us. The information you submit will be kept confidential and with the highest standards of security once it reaches our server. The information you provide will be entered onto a database (if you are submitting an online survey: please see item 8) and processed by Amberisk in accordance with the Data Protection Law.</p><p><b>2 </b>Any personal information provided by you to Amberisk through your registration and use of this website will only be used for the following purposes by Amberisk:</p><ol><li>updating and enhancing records and those of other related Amberisk activities, including those of its subsidiaries;</li><li>defining areas of interest to you and improving the website to meet users' habits and requirements and compiling information relating to users' movements across the website; and/or</li><li>advising you of other products or services, which may be of interest.</li></ol><p>Any personal information received from you will be retained by Amberisk and/or its subsidiaries and will only be disclosed to a third party where Amberisk is satisfied that such third party has adequate data protection provisions in place. In addition, disclosure may be given where required by law. We shall also give you the opportunity to remove yourself from any of our mailing lists at any time.</p><p><b>3</b> Some of our web pages use cookies and other tracking technologies (please see Use of Cookies). By proceeding to register with this website, you consent to the terms and conditions contained herein and to Amberisk and/or its subsidiaries processing your personal data for the purposes set out above.</p><p><b>4 </b>This data protection and privacy policy statement relates solely to the information provided by you to Amberisk on this website. This information includes your registration details, any additional information you choose to submit and the information Amberisk gathers by tracking your movements across the website.</p><p><b>5</b> When registering for online services you will receive a Personal Identifier and will choose a password for subsequent access to these services. The services and information available to you will be governed by the relationship you have with us.</p><p><b>6 </b>This privacy policy is not intended to, and does not, create any contractual or other legal rights.</p><p><b>7 </b>You agree to indemnify and to keep Amberisk indemnified from and against any costs, claims, demands, expenses and liabilities suffered by Amberisk arising from or which is directly or indirectly related to your access to and/or use of the website and/or any other person or entity's use of the website where such person or entity was able to access the website using your password.</p><p><b>8</b> Amberisk may conduct market research and other mixed purpose projects (e.g. market research plus one other activity such as marketing or sales) through the use of online surveys. For market research surveys, the identities of individual respondents and their answers will be treated as confidential and will only be used for research purposes, unless the respondent expressly requests or permits otherwise.</p><p>Some market research surveys are anonymous and if this applies it will normally be indicated on the questionnaire. For surveys that are not anonymous we may cross-reference your responses with information that we already hold about you. This would be for research purposes only.</p><p>For mixed purpose projects, the purpose(s) will be stated on the questionnaire. For all online surveys participation is voluntary at all times. The information you provide will be processed at all times by Amberisk and/or its subsidiaries in accordance with the Data Protection Law.</p><p><br></p><p><b>Copyright Notice</b></p><p><b>1 </b>This website is copyright of Amberisk. Its content is copyright of Amberisk and of contributors who have exclusively licensed such copyright to Amberisk. © Amberisk and contributors 2017. All Rights Reserved.</p><p><b>2 </b>All intellectual property in the design and layout of this website and the material and information published on its pages belongs to and is vested in Amberisk or its licensors. You may not copy any part of this site or otherwise do anything in relation to any part of the site other than the following:</p><p><br></p><p><b>Applicable Law and changes to the terms and conditions</b></p><p>It should be noted when reading these Terms and Conditions that:</p><p><span style=\"font-size: 17px;\">Those who access the website from locations outside of the Channel Islands are responsible for compliance with local laws if and to the extent that local laws are applicable;</span><br></p><p><span style=\"font-size: 17px;\">Failure or delay by Amberisk to enforce compliance with the Terms and Conditions does not constitute a waiver of the Terms and Conditions;</span><br></p><p><span style=\"font-size: 17px;\">None of the Terms and Conditions shall be enforceable under Contract Law in Guernsey by any third party;</span><br></p><p><span style=\"font-size: 17px;\">All terms and conditions shall be governed by and construed in accordance with the laws of Guernsey and the parties hereby submit to the non-exclusive jurisdiction of the courts of Guernsey, unless expressly stated;</span></p><p>Any provisions of the Terms and Conditions found to be unlawful, void or unenforceable shall be deemed to be severable from the other provisions of the Terms and Conditions.</p><p><br></p><p><b>Cookies</b></p><p><b>1</b> Some of our web pages use cookies. A cookie is a text-only string of information that a website transfers to the cookie file of the browser on your computer's hard disk so that the website can remember who you are.</p><p><b>2</b> When you access our website or login to our secure area we send you an encrypted session cookie. A session cookie is a temporary cookie that only remains in the cookie file of your browser until you leave the site. This cookie is used to validate your access to different parts of the site.</p><p><b>3</b> This website uses Google Analytics, a web analytics service provided by Google, Inc. Google Analytics uses cookies to help this website analyse how users use the site.&nbsp;</p><p><br></p><p><b>Disabling / Enabling Cookies</b></p><p>You have the ability to accept or decline cookies by modifying the settings in your browser. However, you will not be able to login to the website if cookies are disabled. You can also manually remove cookies from your system. For more information on disabling and enabling cookies you should search for or lookup 'Cookies' in your Operating System Documentation.</p><p><br></p><p>Transparency - our use of cookies</p><p><br></p><p>Cookies set by us</p><p><br></p><p>Name of cookie</p><p><br></p><p>Expiry</p><p><br></p><p>Data Stored</p><p><br></p><p>Purpose</p><p><br></p><p>session\tEnd of session\tSession ID\tAmberisk uses cryptographically signed cookies to protect the content of user sessions against tampering. The content relates to user authorisation and user defined settings.</p><p><br></p><p>Google Analytics</p><p>This website uses Google Analytics, a web analytics service provided by Google, Inc. Google Analytics uses cookies to help us analyse how people use our site.&nbsp;</p><p><br></p><p><br></p><p><br></p><p>Name of cookie</p><p><br></p><p>Expiry</p><p><br></p><p>Data Stored</p><p><br></p><p>Purpose</p><p><br></p><p>__utma\t2 years from set / update\tGoogle Analytics Unique ID number\tTracking data for Google Analytics.  Helps work out unique visitor numbers.</p><p>__utmb\t30 minutes from set / update\tGoogle Analytics Unique ID number\tTracking data for Google Analytics.  Helps work out visitor session length.</p><p>__utmbc\tEnd of session\tGoogle Analytics Unique ID number\tTracking data for Google Analytics. Helps work out visitor session length and whether a session has expired.</p><p>__utmz\t6 months from set / update\tGoogle Analytics Unique ID tracking numbers\tTracking data for Google Analytics.  Used to work out referrals from other domains.</p><p><br></p><p><br></p>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-h",
+          "_name": "form1",
+          "_anchor": "form1-11",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#3c3c3c",
+            "bgColor": "#efefef",
             "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
           },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/amber-logo-lg-bc.svg",
-              "class": "mbr-contacts__img mbr-contacts__img--left",
-              "width": 265,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+          "title": "CONTACT FORM",
+          "form": {
+            "action": "hayden.morgan@amberisk.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
             },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "https://mobirise.com",
-              "size": 0
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
             }
           },
-          "text1": "<strong>ADDRESS</strong><br>Digital Greenhouse, Rectory House, Market Square, St Peter Port, <br>Guernsey,&nbsp;GY1 1AQ<br>",
-          "text2": "<strong>CONTACTS</strong><br>\nEmail: admin@amberisk.com<br>\nPhone: +44 (0) 7781 126 058<br><br>",
-          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li>Risconx</li><li>RegTech Guernsey</li></ul>"
-        }
-      ]
-    },
-    "page2.html": {
-      "settings": {
-        "title": "Legal and Privacy",
-        "meta_descr": "Legal and privacy staements for Amberisk (CI) Limited;\nOperationa Risk\nRegulatory Risk\nIT Consulting"
-      },
-      "components": [
-        {
-          "_styles": {
-            ".hide-buttons [data-button]": {
-              "display": "none !important"
-            },
-            ".navbar-brand a": {},
-            ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "font-family": "'Open Sans', sans-serif"
-            },
-            ".navbar, .dropdown-menu": {
-              "background": "#071640"
-            },
-            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
-              "background": "#05102e"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "dropdown-menu",
-          "_anchor": "dropdown-menu-c",
-          "_params": {
-            "bgColor": "#071640",
-            "fontSize": "1",
-            "fontName": {
-              "name": "Open Sans",
-              "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
-              "css": "'Open Sans', sans-serif"
-            },
-            "fontColor": "#ffffff",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/amber-logo-lg-1435x128.png",
-              "class": "",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://amberisk.com",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">FEATURES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile friendly</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Based on Bootstrap</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">Trendy blocks</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image/content slider</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact forms</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Image gallery</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Mobile menu</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google maps</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Social buttons</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Google fonts</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Video background</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Host anywhere</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">HELP</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Forum</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Tutorials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Contact us</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-default btn-default-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts2",
-          "_styles": {
-            "P": {
-              "text-align": "left"
-            }
-          },
-          "_anchor": "contacts2-d",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#3c3c3c",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C",
-            "googleMap": {
-              "address": "Digital Greenhouse, Rectory House, Market Square, St Peter Port, GY1 1AQ",
-              "placeId": "ChIJRXgssR5zDUgRn1543_aqjk0",
-              "state": "ok",
-              "stateDetails": ""
-            }
-          },
-          "text1": "<strong>ADDRESS</strong><br>Digital Greenhouse, Rectory House, Market Square, St Peter Port, GY1 1AQ<br><br>\n<strong>CONTACTS</strong><br>\nEmail: admin@amberisk.com<br>\nPhone: +44 (0) 7781 126 058<br>",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"http://risconx.com\">Risconx</a></li><li><a href=\"http:/regtech.gg\">RegTech Guernsey</a></li></ul>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">CONTACT US</a>"
         }
       ]
     }
